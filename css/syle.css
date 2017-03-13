@@ -1,0 +1,247 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "Holtwood One SC";
+	src: url(../fonts/HoltwoodOneSC.ttf);
+}
+
+@font-face {
+	font-family: "PT Sans";
+	src: url(../fonts/ptsans.ttf);
+}
+
+body {
+	width: 100%;
+	background: #000;
+}
+
+.wrapper {
+	width: 100%; /*1350px*/
+	height: 503px;
+	margin: 0 auto;
+	background: url(../images/header/header-bg1.png) 50% 50%;
+
+}
+
+.main-menu ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.main-menu ul li {
+	margin-right: 90px;
+	margin-top: 29px;
+}
+
+.main-menu a {
+	color: #ffffff;
+	font-family: "PT Sans";
+	font-size: 1.125em; /*18px*/
+	font-weight: 700;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+.main-menu a:hover {
+	text-decoration: underline;
+}
+
+.logo h1 {
+	display: block;
+	margin-top: 92px;
+	margin-left: 300px;
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.57);
+	color: #ffffff;
+	font-family: "Holtwood One SC";
+	font-size: 3.875em; /*62px*/
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.logo h3 {
+	display: block;
+	width: 28.88888888%; /*390px*/
+	margin: 30px 480px 235px 480px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+	color: #ecc908;
+	font-family: "PT Sans";
+	font-size: 1.5em; /*24px*/
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.services {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 45px;
+	/*width: 914px; */
+}
+
+.service {
+	width: 14.14814814%; /*191px*/
+	height: 404px;
+	margin-right: 50px;
+}
+
+.service h3 {
+	color: #ffffff;
+	font-family: "Holtwood One SC";
+	font-size: 1.25em; /*20px*/
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.service p {
+	display: block;
+	font-family: Arial;
+	font-size: 0.75em; /*12px*/
+	line-height: 20px;
+	color: #717171;
+	font-style: italic;
+}
+
+.service a {
+	position: relative;
+	left: 100px;
+	top: 20px;
+	font-family: Arial;
+	font-size: 0.75em; /*12px*/
+	font-weight: 400;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.service img {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.click {
+	width: 911px; /*911px*/
+	height: 100px;
+	background: #272727;
+	margin-left: 195px;
+	margin-top: 32px;
+}
+
+.click p {
+	padding-left: 5px;
+	color: #b09609;
+	font-family: "Holtwood One SC";
+	font-weight: 400;
+	line-height: 30px;
+	font-size: 1.5em; /*24px*/
+}
+
+.click a {
+	position: relative;
+	left: 800px;
+	top: 15px;
+	color: #b09609;
+	font-family: "PT Sans";
+	font-size: 1em; /*16px*/
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.sub-info {
+	width: 43.85185185%; /*592px*/
+	margin-top: 100px;
+	margin-left: 190px;
+	border-top: 1px solid gray;
+	border-top: 1px solid gray;
+}
+
+.sub-info h3 {
+	display: block;
+	width: 42px; /*42px*/
+	height: 42px;
+	border-radius: 50%;
+	background: #2d2d2d;
+	color: #b09609;
+	font-family: "PT Sans";
+	font-size: 1.5em; /*24px*/
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.sub-info p {
+	color: #b09609;
+	font-family: Arial;
+	font-size: 0.75em; /*12px*/
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.sub-menu {
+	margin-left: 120px;
+	margin-top: 50px;
+} 
+
+.sub-menu h4 {
+	color: #ffffff;
+	font-family: "PT Sans";
+	font-size: 1.875em; /*30px*/
+	font-weight: 700;
+	line-height: 30px;
+}
+
+.sub-menu ul {
+	list-style-image: url(../images/sub-menu/marker.png);
+}
+
+.sub-menu a {
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 0.875em; /*14px*/
+	font-weight: 400;
+	line-height: 32px;
+	text-decoration: none;
+}
+
+.sub-menu a:hover {
+	color: #2d2d2d;
+}
+
+footer {
+	display: flex;
+	background: #191919;
+	border-top: 1px solid #232323;
+}
+
+footer p {
+	color: #717171;
+	font-family: Tahoma;
+	font-size: 0.75em; /*12px*/
+	line-height: 18px;
+	font-weight: 400;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.social {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right:;
+}
+
+.soc {
+	margin: 10px 0 50px 650px;
+}
